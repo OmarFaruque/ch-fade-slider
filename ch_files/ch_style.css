@@ -1,0 +1,39 @@
+.revolution-slider .bannercontainer,
+.bannercontainer {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background: #272727;
+}
+.caption.sft.revolution-ch-fade-slider.bigtext.tp-caption.start{
+	font-size: 45px;
+	text-shadow:0px 3px 3px rgba(0,0,0, 0.3);
+}
+.caption.sft.revolution-ch-fade-slider.bigtext.tp-caption.start i.fa{
+	font-size:25px; 
+	font-weight: bold;
+	vertical-align:middle;
+	margin: 2px; 
+}
+.ch-btn{
+background: -moz-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.38)), color-stop(100%, rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0) 100%); /* W3C */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61ffffff', endColorstr='#00ffffff', GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	-webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3);
+	box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3);
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.btn-olive{
+	background-color: #2a2a2a;
+}

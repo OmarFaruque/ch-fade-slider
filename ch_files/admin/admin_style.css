@@ -1,0 +1,236 @@
+.one-two {
+    max-width: 75%;
+    float:left;
+}
+.pull-right {
+    float: right;
+}
+.addSlider ‍a:focus {
+    box-shadow: unset;
+}
+.visiable p {
+    display: inline-block;
+    margin-right: 10px;
+}
+.newSliderWrap input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+div#newSlider {
+    background: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 1px 2px 0.5em #999;
+    opacity: 0;
+    visibility: visible;
+    overflow: hidden;
+    height: 0px;
+    display: block;
+}
+.submit_ch_sluder input {
+    float: right;
+}
+.submit_ch_sluder {
+    display: block;
+    overflow: hidden;
+}
+input.error,
+input.error:focus {
+    box-shadow: inset 0 0 0.1em red;
+}
+table.widefat a {
+    background: #006799;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 0px;
+    float: left;
+}
+table.widefat tbody tr td a:hover,
+table.widefat tbody tr td a.edit_slide.active {
+    background: #72777c;
+}
+img.sliderImg {
+    max-width: 100%;
+    vertical-align: middle;
+}
+table.widefat tbody tr td {
+    vertical-align: middle;
+}
+table.widefat tbody tr:nth-child(odd) {
+    background: rgba(0,0,0,.04);
+}
+table.widefat a.enableDesable {
+    background: none;
+    color: #006799;
+}
+table.widefat a.enableDesable:hover {
+    background: none;
+    color: #006799;
+}
+table.widefat a.readonly {
+    color: #999;
+}
+span.img_prev.clicable {
+    cursor: pointer;
+}
+tr.editActive {
+    background: rgba(96, 125, 139, 0.52) !important;
+}
+table.widefat input {
+    max-width: 100%;
+}
+table.widefat a:focus {
+    box-shadow: none;
+}
+a.enableDesable.active:hover {
+    color: red !important;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+tr.ui-sortable-helper img{
+    max-width: 132px;
+}
+table.widefat thead, 
+table.widefat tfoot {
+    background: #006799;
+}
+table.widefat thead tr th,
+table.widefat tfoot tr td {
+    color: #fff;
+}
+table.widefat tfoot tr td{
+	text-align: center;
+}
+table.widefat {
+    box-shadow: 3px 3px 0.5em #999;
+}
+.addSlider a:focus {
+    box-shadow: none;
+}
+.addSlider a.dashicons-dismiss {
+    color: #a21309;
+}
+a.mailme {
+    float: none !important;
+}
+h1.admintitle {
+    background: #03A9F4;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #fff;
+    box-shadow: 4px 5px 0.1em #555;
+    margin-bottom:20px;
+}
+.two-one.instruciton {
+    overflow: hidden;
+}
+.two-one.instruciton .inst {
+    padding: 10px;
+    background: #fff;
+    margin-left: 15px;
+}
+.two-one.instruciton .inst li {
+    margin-bottom: 25px;
+}
+
+.previewch_slider img {
+    max-height: 60px;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 140px;
+}
+div#newSlider.newS {
+    max-height: 180px;
+}
+h2.slider_name {
+    background: #222;
+    color: #fff;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+.message.ch_Message {
+    color: red;
+    background: beige;
+    margin-top: 32px;
+    padding: 5px 15px;
+}
+.message.ch_Message p{
+    font-style: 20px;
+}
+.backtoHome a div {
+    line-height: 28px;
+}
+.backtoHome a {
+    padding-left: 0 !important;
+    margin-top: 40px !important;
+}
+ul.ch_slider_settings .form-group {
+    display: block;
+    overflow: hidden;
+}
+ul.ch_slider_settings input[type="number"], ul.ch_slider_settings select {
+    width: 100px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+ul.ch_slider_settings label {
+    line-height: 30px;
+}
+.two-one.instruciton .inst.headerNotes,
+.inst.header.ch_main_side_header {
+    background: #006799;
+    color: #fff;
+    padding: 1px 15px;
+}
+div#ch_main_sidebar .inst.headerNotes h4,
+.inst.header.ch_main_side_header h4 {
+    margin: 8px 0;
+}
+ul.ch_slider_settings li .wp-picker-container {
+    margin-top: 3px;
+    display: block;
+    float: right;
+}
+div#loading {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+}
+div#loading span.thankYouMessage {
+    background: -webkit-linear-gradient(#03a9f4, #0073aa, #126b94);
+    background: -o-linear-gradient(#03a9f4, #0073aa, #126b94);
+    background: -moz-linear-gradient(#03a9f4, #0073aa, #126b94);
+    background: linear-gradient(#03a9f4, #0073aa, #126b94);
+    color: #fff;
+    padding: 40px 58px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border-radius: 50px;
+    border: 1px solid #13668d;
+    display: block;
+}
+div#loading span.thankYouMessage div {
+    font-size: 80px;
+    line-height: 20px;
+    width: 58px;
+}
+/*table.widefat.fixed.fadeSliderMain {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    text-align: center;
+}*/
+table.widefat.fixed.fadeSliderMain a img.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
